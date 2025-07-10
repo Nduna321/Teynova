@@ -8,11 +8,11 @@ import Footer from "@/components/footer"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Teynova Polychems - Laboratory Equipment & Chemical Supplies Zimbabwe",
+  title: " TEYNOVA - Laboratory Equipment & Chemical Supplies Zimbabwe",
   description:
-    "Leading supplier of laboratory equipment, safety gear, cosmetic products, and chemical solutions across Zimbabwe. Quality products for schools, universities, hospitals, and industries.",
-  keywords: "laboratory equipment Zimbabwe, safety equipment, cosmetics, chemicals, pest control, Teynova, Polychems",
-    generator: 'v0.dev'
+    "Leading supplier of laboratory equipment, safety gear,  chemical solutions, and cosmetic products across Zimbabwe. Quality products for schools, universities, hospitals, and industries.",
+  keywords: "laboratory equipment Zimbabwe, safety equipment,  chemicals, Teynova, Polychems, cosmetics,",
+    generator: 'Proud.dev'
 }
 
 export default function RootLayout({

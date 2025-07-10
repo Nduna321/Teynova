@@ -19,10 +19,11 @@ export default function Navbar() {
   ]
 
   const handleGetQuote = () => {
+    const subject = "Quote Request"
     const message =
-      "Hello! I would like to get a quote for your products and services. Please provide me with more information"
-    const whatsappUrl = `https://wa.me/263778855787?text=${encodeURIComponent(message)}`
-    window.open(whatsappUrl, "_blank")
+        "Hello! I would like to get a quote for your products and services. Please provide me with more information."
+    const mailtoUrl = `mailto:teynovapolychems1@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(message)}`
+    window.open(mailtoUrl, "_blank")
   }
 
   return (
@@ -31,21 +32,21 @@ export default function Navbar() {
       <div className="bg-red-600 text-white py-2 px-4">
         <div className="container mx-auto flex flex-wrap justify-between items-center text-sm">
           <div className="flex items-center space-x-4">
-            <a href="tel:+263783030009" className="flex items-center space-x-1 hover:text-red-200 touch-manipulation">
+            <a href="tel:+263788303009" className="flex items-center space-x-1 hover:text-red-200 touch-manipulation">
               <Phone className="h-3 w-3" />
-              <span>+263783030009</span>
+              <span>+263788303009</span>
             </a>
             <a
-              href="mailto:info@teynova.co.zw"
+              href="mailto:teynovapolychems1@gmail.com"
               className="flex items-center space-x-1 hover:text-red-200 touch-manipulation"
             >
               <Mail className="h-3 w-3" />
-              <span>info@teynova.co.zw</span>
+              <span>teynovapolychems1@gmail.com</span>
             </a>
           </div>
           <div className="flex items-center space-x-2">
             <a
-              href="https://wa.me/263778855787?text=May%20I%20get%20More%20Information%20about%20this?"
+              href="https://wa.me/263788303009?text=May%20I%20get%20More%20Information%20about%20this?"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center space-x-1 hover:text-red-200 touch-manipulation"
@@ -61,7 +62,7 @@ export default function Navbar() {
       <div className="container mx-auto px-4">
         <div className="flex h-16 items-center justify-between">
           <Link href="/" className="flex items-center space-x-2 touch-manipulation">
-            <Image src="/images/logo.jpg" alt="Teynova Polychems" width={120} height={40} className="h-10 w-auto" />
+            <Image src="/images/logo2.jpg" alt="Teynova Polychems" width={140} height={30} className="h-10 w-auto" />
           </Link>
 
           {/* Desktop Navigation */}

@@ -37,8 +37,8 @@ export default function AboutPage() {
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-6">About Teynova Polychems</h1>
           <p className="text-xl md:text-2xl max-w-3xl mx-auto">
-            Your trusted partner for quality chemical supplies, laboratory equipment, and safety solutions across
-            Zimbabwe
+            Your trusted partner for quality skincare products, chemical supplies, laboratory equipment,
+            and safety solutions across Zimbabwe.
           </p>
         </div>
       </section>
@@ -51,7 +51,7 @@ export default function AboutPage() {
               <h2 className="text-3xl md:text-4xl font-bold mb-6">Our Story</h2>
               <p className="text-gray-600 mb-6 text-lg">
                 Teynova Polychems was founded with a vision to provide Zimbabwe with access to high-quality laboratory
-                equipment, safety gear, cosmetic products, and chemical solutions. We recognized the need for reliable
+                equipment, safety gear, chemical solutions and cosmetic product. We recognized the need for reliable
                 suppliers who could serve educational institutions, healthcare facilities, research organizations, and
                 industries with products that meet international standards.
               </p>
@@ -89,8 +89,8 @@ export default function AboutPage() {
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600 text-lg">
-                  To provide Zimbabwe with access to high-quality laboratory equipment, safety solutions, cosmetic
-                  products, and chemical supplies that enable progress in education, healthcare, research, and industry
+                  To provide Zimbabwe with access to high-quality laboratory equipment, safety solutions,chemical supplies, and  cosmetic
+                  products that enable progress in education, healthcare, research, and industry
                   while maintaining the highest standards of service and reliability.
                 </p>
               </CardContent>
@@ -158,9 +158,10 @@ export default function AboutPage() {
             </div>
             <div className="text-center">
               <div className="bg-white p-6 rounded-lg shadow-md touch-manipulation">
-                <h3 className="text-xl font-semibold mb-3 text-red-600">Healthcare Facilities</h3>
+                <h3 className="text-xl font-semibold mb-3 text-red-600">Cosmetic Businesses</h3>
                 <p className="text-gray-600">
-                  Hospitals, clinics, and medical laboratories needing specialized equipment and consumables.
+                  Salons, spas, beauty studios, and retailers needing high-quality cosmetic products,
+                  skincare essentials, and beauty tools.
                 </p>
               </div>
             </div>

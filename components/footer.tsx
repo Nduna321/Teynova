@@ -9,15 +9,17 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="space-y-4">
+
             <Image
-              src="/images/logo.jpg"
-              alt="Teynova Polychems"
-              width={150}
-              height={50}
-              className="h-12 w-auto brightness-0 invert"
+                src="/images/logo2.jpg"
+                alt="Teynova Polychems"
+                width={150}
+                height={50}
+                className="h-12 w-auto"
             />
+
             <p className="text-gray-300 text-sm">
-              Leading supplier of cosmetics, chemicals, and pest control solutions across Zimbabwe. Quality products for
+              Leading supplier of  chemicals, and cosmetics  across Zimbabwe. Quality products for
               laboratories, industries, and personal care.
             </p>
             <div className="flex space-x-4">
@@ -74,9 +76,9 @@ export default function Footer() {
             <ul className="space-y-2">
               <li className="text-gray-300">Laboratory Equipment</li>
               <li className="text-gray-300">Safety Equipment</li>
-              <li className="text-gray-300">Cosmetic Products</li>
               <li className="text-gray-300">Chemical Supplies</li>
-              <li className="text-gray-300">Pest Control</li>
+              <li className="text-gray-300">Cosmetic Products</li>
+
             </ul>
           </div>
 
@@ -101,26 +103,26 @@ export default function Footer() {
                 <Phone className="h-5 w-5 text-red-500" />
                 <div>
                   <a
-                    href="tel:+263783030009"
+                    href="tel:+263788303009"
                     className="text-gray-300 hover:text-white transition-colors touch-manipulation block"
                   >
-                    +263 783 030 009
+                    +263 788 303 009
                   </a>
                   <a
-                    href="tel:+263778855787"
+                    href="tel:+263783260856"
                     className="text-gray-300 hover:text-white transition-colors touch-manipulation block"
                   >
-                    +263 77 885 5787
+                    +263 78 326 0856
                   </a>
                 </div>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-red-500" />
                 <a
-                  href="mailto:info@teynova.co.zw?subject=Inquiry%20about%20Teynova%20Products&body=Hello,%0D%0A%0D%0AI%20would%20like%20to%20get%20more%20information%20about%20your%20products%20and%20services.%0D%0A%0D%0AThank%20you."
+                  href="mailto:teynovapolychems1@gmail.com?subject=Inquiry%20about%20Teynova%20Products&body=Hello,%0D%0A%0D%0AI%20would%20like%20to%20get%20more%20information%20about%20your%20products%20and%20services.%0D%0A%0D%0AThank%20you."
                   className="text-gray-300 hover:text-white transition-colors touch-manipulation"
                 >
-                  info@teynova.co.zw
+                  teynovapolychems1@gmail.com
                 </a>
               </div>
             </div>
@@ -128,7 +130,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
-          <p className="text-gray-400 text-sm">© 2024 Teynova Polychems. All rights reserved.</p>
+          <p className="text-gray-400 text-sm">© 2025 Teynova Polychems. All rights reserved.</p>
         </div>
       </div>
     </footer>
