@@ -26,7 +26,7 @@ export default function ExpandedProducts({ selectedCategory }: ExpandedProductsP
     },
     {
       name: "Advanced Laboratory Instruments",
-      image: "/images/lab-heating-equipment.jpg",
+      image: "/images/advanced-lab-equipment.jpg",
       description:
           "Professional heating equipment, digital scales, pH meters, and precision measuring instruments for research facilities",
       category: "Lab Equipment & Accessories",
@@ -58,7 +58,7 @@ export default function ExpandedProducts({ selectedCategory }: ExpandedProductsP
     },
     {
       name: "Laboratory Glassware Set - Educational",
-      image: "/images/Laboratory Glassware Set - Educational.jpg",
+      image: "/images/control.jpg",
       description:
           "Educational laboratory glassware set perfect for schools and training institutions with safety equipment",
       category: "Lab Equipment & Accessories",
@@ -74,7 +74,7 @@ export default function ExpandedProducts({ selectedCategory }: ExpandedProductsP
     },
     {
       name: "Laboratory Heating Equipment - Advanced",
-      image: "/images/advanced-lab-equipment.jpg",
+      image: "/images/labs.jpg",
       description:
           "Professional hot plates, magnetic stirrers, heating mantles, and temperature control equipment for precise laboratory work",
       category: "Lab Equipment & Accessories",
@@ -90,7 +90,7 @@ export default function ExpandedProducts({ selectedCategory }: ExpandedProductsP
     },
     {
       name: "Precision Laboratory Scales",
-      image: "/images/advanced-lab-equipment.jpg",
+      image: "/images/lab.jpg",
       description:
           "High-precision digital scales and balances for accurate measurements in laboratory and research applications",
       category: "Lab Equipment & Accessories",

@@ -24,13 +24,13 @@ export default function HomePage() {
       icon: <Sparkles className="h-12 w-12 text-red-600" />,
       title: "Cosmetic - Hair Care",
       description: "Premium hair care products for healthy, beautiful hair.",
-      image: "/images/teyne-mask-1.jpg",
+      image: "/images/skin.jpg",
     },
     {
       icon: <Sparkles className="h-12 w-12 text-red-600" />,
       title: "Cosmetic - Facial Care",
       description: "Advanced facial care products for all skin types and concerns.",
-      image: "/images/teyne-mask-1.jpg",
+      image: "/images/face.jpg",
     },
   ]
 

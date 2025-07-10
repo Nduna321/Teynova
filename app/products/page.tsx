@@ -20,13 +20,13 @@ export default function ProductsPage() {
     cosmetics: [
       {
         name: "Teyne Acne Treatment Mask - Premium",
-        image: "/images/teyne-mask-premium.jpg",
+        image: "/images/face.jpg",
         description: "Premium acne treatment mask with natural ingredients for clear, healthy skin",
         category: "Cosmetics",
       },
       {
         name: "Teyne Acne Treatment Mask - Classic",
-        image: "/images/teyne-mask-classic.jpg",
+        image: "/images/skin.jpg",
         description: "Classic formula acne treatment mask for effective blemish control",
         category: "Cosmetics",
       },
@@ -44,37 +44,37 @@ export default function ProductsPage() {
       },
       {
         name: "Teynoc Dreadloc Cleanser",
-        image: "/images/teynoc-cleanser.jpg",
+        image: "/images/teyne-mask-3.jpg",
         description: "Professional dreadlock cleanser with natural ingredients",
         category: "Cosmetics",
       },
       {
         name: "Teyne Anti-Aging Serum",
-        image: "/images/teyne-mask-natural.jpg",
+        image: "/images/teyne-mask-2.jpg",
         description: "Advanced anti-aging serum with natural peptides and antioxidants",
         category: "Cosmetics",
       },
       {
         name: "Natural Hair Strengthening Oil",
-        image: "/images/teyne-mask-artistic.jpg",
+        image: "/images/teyne-mask-1.jpg",
         description: "Nourishing hair oil blend with essential oils for hair protection",
         category: "Cosmetics",
       },
       {
         name: "Teyne Moisturizing Face Cream",
-        image: "/images/teyne-mask-new-3.jpg",
+        image: "/images/teyne-mask-3.jpg",
         description: "Deep moisturizing cream for dry and sensitive skin",
         category: "Cosmetics",
       },
       {
         name: "Teynoc Hair Growth Treatment",
-        image: "/images/teyne-mask-natural.jpg",
+        image: "/images/teyne-mask-2.jpg",
         description: "Advanced hair growth treatment with natural botanicals",
         category: "Cosmetics",
       },
       {
         name: "Teyne Exfoliating Face Scrub",
-        image: "/images/teyne-mask-artistic.jpg",
+        image: "/images/face.jpg",
         description: "Gentle exfoliating scrub for smooth and radiant skin",
         category: "Cosmetics",
       },
@@ -82,13 +82,13 @@ export default function ProductsPage() {
     "industrial-safety": [
       {
         name: "Professional Safety Equipment Kit",
-        image: "/images/safety-equipment-collection.jpg",
+        image: "/images/sf1.jpg",
         description: "Complete PPE package with respirators, goggles, and protective gear",
         category: "Industrial Safety",
       },
       {
         name: "Industrial Safety Gear Set",
-        image: "/images/industrial-safety-gear.jpg",
+        image: "/images/sf2.jpg",
         description: "Comprehensive safety equipment for industrial workers",
         category: "Industrial Safety",
       },
@@ -106,13 +106,13 @@ export default function ProductsPage() {
       },
       {
         name: "Safety Goggles and Face Shields",
-        image: "/images/safety-equipment-collection.jpg",
+        image: "/images/safety googles.jpg",
         description: "Eye and face protection equipment for various industries",
         category: "Industrial Safety",
       },
       {
         name: "Respiratory Protection Equipment",
-        image: "/images/industrial-safety-gear.jpg",
+        image: "/images/respitory.jpg",
         description: "N95 and P100 respirator masks for airborne protection",
         category: "Industrial Safety",
       },
@@ -130,39 +130,34 @@ export default function ProductsPage() {
       },
       {
         name: "Fall Protection Equipment",
-        image: "/images/industrial-safety-gear.jpg",
+        image: "/images/fall.jpg",
         description: "Harnesses and fall arrest systems for height work",
         category: "Industrial Safety",
       },
-      {
-        name: "Emergency Safety Kits",
-        image: "/images/safety-equipment-collection.jpg",
-        description: "Complete emergency response and first aid safety kits",
-        category: "Industrial Safety",
-      },
+
     ],
     "lab-equipment": [
       {
         name: "Complete Chemistry Laboratory Set",
-        image: "/images/comprehensive-lab-set.jpg",
+        image: "/images/chemistry.jpg",
         description: "Comprehensive laboratory equipment set with microscopes and glassware",
         category: "Laboratory",
       },
       {
         name: "Advanced Laboratory Instruments",
-        image: "/images/advanced-lab-instruments.jpg",
+        image: "/images/Laboratory Heating Equipment - Advanced.jpg",
         description: "Professional heating equipment, scales, and precision instruments",
         category: "Laboratory",
       },
       {
         name: "Laboratory Glassware Collection",
-        image: "/images/lab-glassware-complete-set.jpg",
+        image: "/images/labglass.jpg",
         description: "High-quality borosilicate glassware for precise measurements",
         category: "Laboratory",
       },
       {
         name: "Chemistry Lab Complete Setup",
-        image: "/images/chemistry-lab-complete.jpg",
+        image: "/images/chemlab.jpg",
         description: "Complete chemistry laboratory setup with safety equipment",
         category: "Laboratory",
       },
@@ -192,13 +187,13 @@ export default function ProductsPage() {
       },
       {
         name: "Laboratory Safety Equipment",
-        image: "/images/lab-glassware-complete-set.jpg",
+        image: "/images/WhatsApp Image 2025-07-02 at 18.28.29_141d0055.jpg",
         description: "Essential safety equipment for laboratory environments",
         category: "Laboratory",
       },
       {
         name: "Analytical Instruments Package",
-        image: "/images/advanced-lab-instruments.jpg",
+        image: "/images/WhatsApp Image 2025-07-02 at 18.28.32_15731971.jpg",
         description: "Complete analytical instruments for research facilities",
         category: "Laboratory",
       },
@@ -225,7 +220,7 @@ export default function ProductsPage() {
       },
       {
         name: "Laboratory Heating Equipment",
-        image: "/images/lab-heating-equipment.jpg",
+        image: "/images/lab.jpg",
         description: "Professional hot plates, magnetic stirrers, and heating apparatus for laboratory use",
         category: "Laboratory",
       },
